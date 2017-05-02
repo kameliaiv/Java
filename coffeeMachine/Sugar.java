@@ -12,7 +12,7 @@ public class Sugar extends Ingredients{
 		if(sugarQuantity==0){
 			return "With no sugar.";
 		}
-		return "With the wanted quantity sugar added ->" + sugarQuantity+ " . ";
+		return "With the wanted quantity of sugar added ->" + sugarQuantity+ " . ";
 	}
 
 }
