@@ -1,7 +1,5 @@
 package coffeeMachine;
-//направи машина, която рпедалга два вида кафе 
-//- американско и някво друго
-//и да може да слага мляко и захар
+
 public class CoffeeMaker {
 public static void main(String[] args) {
 	DrinkOrder coffeeAmerican = new DrinkOrder(new AmericanCoffee(),  new Sugar(2));
